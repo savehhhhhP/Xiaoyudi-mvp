@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="CardElementView">
+        <attr name="textName" format="string"/>
+        <!--<attr name="imgResouse" format="integer"/>-->
+        <attr name="textSize" format="dimension"/>
+        <!--<attr name="textStyle" format="integer"/>-->
+        <attr name="textColor" format="integer"/>
+    </declare-styleable>
+</resources>
