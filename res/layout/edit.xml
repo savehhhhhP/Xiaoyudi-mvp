@@ -1,19 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
               xmlns:my="http://schemas.android.com/apk/res/com.Xiaoyudi_mvp.activity"
               android:orientation="vertical"
               android:layout_width="fill_parent"
               android:layout_height="fill_parent"
-              android:background="@drawable/common_background">
+              android:background="@drawable/parent_main_bg">
+
+    <ImageButton
+            android:layout_width="180px"
+            android:layout_height="80px"
+            android:id="@+id/golib"
+            android:layout_gravity="left|top"
+            android:layout_marginLeft="@dimen/layout_btn_margin"
+            android:layout_marginTop="@dimen/layout_btn_top"
+            android:background="@drawable/btn_parent_golib"/>
+    <ImageButton
+            android:layout_width="320px"
+            android:layout_height="80px"
+            android:id="@+id/tittle"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="@dimen/layout_btn_top"
+            android:background="@drawable/btn_parent_tittle"/>
+    <ImageButton
+            android:layout_width="180px"
+            android:layout_height="80px"
+            android:id="@+id/end"
+            android:layout_gravity="right|top"
+            android:layout_marginRight="@dimen/layout_btn_margin"
+            android:layout_marginTop="@dimen/layout_btn_top"
+            android:background="@drawable/btn_parent_end"/>
 
     <com.Xiaoyudi_mvp.view.CardElement
-            android:layout_width="220dp"
-            android:layout_height="350dp"
+            android:id="@+id/card1"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
             my:textName="我要吃苹果"
             my:textSize="20sp"
-            android:layout_alignParentLeft="false"
-            android:layout_centerInParent="true"/>
+            android:layout_marginTop="@dimen/layout_card_top"
+            android:layout_marginLeft="@dimen/layout_card_space"/>
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card2"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top"
+            android:layout_gravity="center_horizontal"/>
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card3"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top"
+            android:layout_marginRight="@dimen/layout_card_space"
+            android:layout_gravity="right"/>
+
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card4"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top2"
+            android:layout_marginLeft="@dimen/layout_card_space"/>
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card5"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top2"
+            android:layout_gravity="center_horizontal"/>
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card6"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top2"
+            android:layout_marginRight="@dimen/layout_card_space"
+            android:layout_gravity="right"/>
 
 
-</RelativeLayout>
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card7"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top3"
+            android:layout_marginLeft="@dimen/layout_card_space"/>
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card8"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top3"
+            android:layout_gravity="center_horizontal"/>
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:id="@+id/card9"
+            android:layout_width="@dimen/layout_card_width"
+            android:layout_height="@dimen/layout_card_height"
+            my:textName="我要吃苹果"
+            my:textSize="20sp"
+            android:layout_marginTop="@dimen/layout_card_top3"
+            android:layout_marginRight="@dimen/layout_card_space"
+            android:layout_gravity="right"/>
+
+    <ImageButton
+            android:layout_width="135px"
+            android:layout_height="80px"
+            android:id="@+id/create"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="@dimen/layout_btn_bottom"
+            android:layout_marginLeft="@dimen/layout_btn_margin"
+            android:background="@drawable/btn_parent_create"/>
+    <ImageButton
+            android:layout_width="135px"
+            android:layout_height="80px"
+            android:id="@+id/setting"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="@dimen/layout_btn_bottom"
+            android:layout_marginRight="@dimen/layout_btn_margin"
+            android:background="@drawable/btn_parent_setting"/>
+
+</FrameLayout>
 

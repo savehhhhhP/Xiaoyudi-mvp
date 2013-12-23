@@ -35,6 +35,8 @@ public class CardElement extends View{
     private int textColor;
     private int imgResouse;
 
+    private int config =1; //设置选择     大小1:1*1布局 2:2*2布局 3:3*3布局         默认为1
+
     Paint mPaint; //画笔,包含了画几何图形、文本等的样式和颜色信息
     public CardElement(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
@@ -65,12 +67,13 @@ public class CardElement extends View{
             textSize = array.getDimension(R.styleable.CardElementView_textSize, 36);
             textColor = array.getColor(R.styleable.CardElementView_textColor, Color.BLACK);
 
-            array.recycle(); //一定要调用，否则这次的设定会对下次的使用造成影响
+
         }
+        array.recycle(); //一定要调用，否则这次的设定会对下次的使用造成影响
     }
 
     public void onDraw(Canvas canvas) {
-        super.onDraw(canvas);
+        //super.onDraw(canvas);
         //Canvas中含有很多画图的接口，利用这些接口，我们可以画出我们想要的图形
         Log.v(TAG,"onDraw:this.getHeight():"+this.getHeight()+"this.getWidth():"+this.getWidth());
         loadResource();
@@ -82,18 +85,20 @@ public class CardElement extends View{
     }
 
     private void drawBitmap(Canvas canvas) {
-        float width = scope * 150.0f;
-        float hight = scope * 90.0f;
+        float width = scope * 105.0f;
+        float hight = scope * 20.0f;
         imageOffset[0] = width;
         imageOffset[1] = hight;
         image = DrawTool.getInsertCard(bg, image, width);   //处理内容图片
 
-        textOfffset[0] = scope * (840);
+        textOfffset[0] = bg.getWidth()/2;
         Log.i(TAG,"textOfffset[0]"+textOfffset[0]);
-        textOfffset[1] = scope * 1300.0f;
+        textOfffset[1] = bg.getHeight()*994/1223;
 
         canvas.drawBitmap(whight, 0, 0, mPaint);
-        canvas.drawBitmap(image, imageOffset[0], imageOffset[1], mPaint);
+        if(image!=null){
+            canvas.drawBitmap(image, imageOffset[0], imageOffset[1], mPaint);
+        }
         canvas.drawBitmap(bg, 0, 0, mPaint);
         canvas.drawBitmap(wood, 0, 0, mPaint);
         canvas.drawBitmap(btn, btnOffset[0], btnOffset[1], mPaint);
@@ -117,15 +122,14 @@ public class CardElement extends View{
         scope = DrawTool.getScope(bg,this.getWidth(),this.getHeight());
         whight = DrawTool.getRealZBitmap(whight,this.getWidth(),this.getHeight());
         bg = DrawTool.getRealZBitmap(bg,this.getWidth(),this.getHeight());
-        //image = img.getBitmap();
         wood = DrawTool.getRealZBitmap(wood,this.getWidth(),this.getHeight());
         //根据缩放后的bg 算出当前按钮的大小
         btn = getBtnSize(bg,btn);
     }
 // 266 867
     private Bitmap getBtnSize(Bitmap bg, Bitmap bitmap) {
-        float width = bg.getWidth() / 6.0f;
-        btnOffset[0]= bg.getWidth() - width * 1.2f;   //left
+        float width = bg.getWidth() / 4.0f;
+        btnOffset[0]= bg.getWidth() - width * 1.1f;   //left
         btnOffset[1]= 0;
         return DrawTool.getRealZBitmap(bitmap,(int)width,(int)width);
     }

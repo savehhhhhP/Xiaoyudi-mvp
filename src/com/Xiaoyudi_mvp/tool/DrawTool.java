@@ -33,7 +33,6 @@ public class DrawTool {
      */
     public static Bitmap getRealZBitmap(Bitmap bitmap,int viewWidth,int viewHeight) {
         Matrix matrix = new Matrix();
-        Log.v(TAG,"getRealZBitmap(): "+"图片的宽是："+bitmap.getWidth()+"高是："+bitmap.getHeight());
         float height_s,width_s,viewScope,bitmapScope,scope;
         viewScope = (float)viewHeight / (float)viewWidth;
         bitmapScope = (float)bitmap.getHeight() / (float)bitmap.getWidth();
@@ -60,7 +59,7 @@ public class DrawTool {
         if(card !=null){
             //按卡片的宽度缩放
             float scope = 0;
-            float newWidth = (float) bgMap.getWidth() - 2.2f * width; //新的宽度
+            float newWidth = (float) bgMap.getWidth() - 2.0f * width; //新的宽度
             scope = newWidth / card.getWidth();
             Matrix matrix = new Matrix();
             matrix.postScale(scope, scope); //长和宽放大缩小的比例

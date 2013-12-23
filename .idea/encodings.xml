@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" useUTFGuessing="true" native2AsciiForPropertiesFiles="false">
+    <file url="file://$PROJECT_DIR$/assets" charset="GBK" />
     <file url="file://$PROJECT_DIR$/res/drawable-hdpi/apple.jpg" charset="GBK" />
-    <file url="file://$PROJECT_DIR$/res/drawable-hdpi/donteat.jpg" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/drawable/btn_cardelement_bianji.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/res/values/arrays.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/po/Card.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/Constants.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/DBUtils.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/DataBaseHelper.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/GlobalUtil.java" charset="GBK" />
   </component>
 </project>
 

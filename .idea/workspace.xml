@@ -23,26 +23,73 @@
     <shared>
       <config />
     </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/layout/edit.xml">
+        <config>
+          <device>Nexus 4</device>
+          <theme>@android:style/Theme.Light.NoTitleBar.Fullscreen</theme>
+        </config>
+      </layout>
+    </layouts>
   </component>
   <component name="AndroidLogFilters">
     <option name="TOOL_WINDOW_LOG_LEVEL" value="INFO" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="efc614bf-6bd6-4818-9b0f-138a702e5f87" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/apple.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/Administrator.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout-land/edit.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/Xiaoyudi_mvp/activity/Manifest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/gen/com/Xiaoyudi_mvp/activity/R.java" afterPath="" />
-      <change type="DELETED" beforePath="P:\project\Xiaoyudi-mvp\res\drawable-hdpi\donteat.jpg" afterPath="" />
-      <change type="DELETED" beforePath="P:\project\Xiaoyudi-mvp\res\drawable-hdpi\eat.jpg" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/add.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/adddown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dropping.db" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/end.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/enddown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_11.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_12.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_21.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_22.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_23.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_24.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/p1_6.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/parent_main_bg.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/s1_11.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/s1_12.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/s1_17.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/s1_21.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/s1_22.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/s1_23.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/s1_24.mp3" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/selfcare.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/setting.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/settingdown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sucaiku.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/sucaikudown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tittle.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tittlebtn.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/tittlebtndown.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/po/Card.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/Constants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/DBUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/DataBaseHelper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/GlobalUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/arrays.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_cardelement_bianji.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_parent_create.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_parent_end.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_parent_golib.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_parent_setting.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/btn_parent_tittle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/assets/dbdata.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/com/Xiaoyudi_mvp/activity/BuildConfig.java" afterPath="$PROJECT_DIR$/gen/com/Xiaoyudi_mvp/activity/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/activity/EditActivity.java" afterPath="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/activity/EditActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/dimens.xml" afterPath="$PROJECT_DIR$/res/values/dimens.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/edit.xml" afterPath="$PROJECT_DIR$/res/layout/edit.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.properties" afterPath="$PROJECT_DIR$/project.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Xiaoyudi-mvp.iws" />
@@ -98,23 +145,7 @@
       </breakpoint>
     </breakpoint_any>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
-    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
-      <breakpoint url="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java" line="67" class="com.Xiaoyudi_mvp.view.CardElement" package="com.Xiaoyudi_mvp.view">
-        <option name="ENABLED" value="true" />
-        <option name="LOG_ENABLED" value="false" />
-        <option name="LOG_EXPRESSION_ENABLED" value="false" />
-        <option name="REMOVE_AFTER_HIT" value="false" />
-        <option name="SUSPEND_POLICY" value="SuspendAll" />
-        <option name="SUSPEND" value="true" />
-        <option name="COUNT_FILTER_ENABLED" value="false" />
-        <option name="COUNT_FILTER" value="0" />
-        <option name="CONDITION_ENABLED" value="true" />
-        <option name="CLASS_FILTERS_ENABLED" value="false" />
-        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
-        <option name="CONDITION" value="" />
-        <option name="LOG_MESSAGE" value="" />
-      </breakpoint>
-    </line_breakpoints>
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_rules />
     <ui_properties />
   </component>
@@ -123,88 +154,102 @@
     <favorites_list name="Xiaoyudi-mvp" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.60805863">
-      <split-first>
-        <leaf>
-          <file leaf-file-name="CardElement.java" pinned="false" current="true" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="87" column="31" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.5553236" vertical-offset="1197" max-vertical-offset="2432">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="cardelement.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/res/layout/cardelement.xml">
-              <provider selected="true" editor-type-id="android-designer">
-                <state />
-              </provider>
-              <provider editor-type-id="text-editor">
-                <state line="7" column="15" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="247">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AndroidManifest.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="10" column="51" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="edit.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
-              <provider editor-type-id="android-designer">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="13" column="50" selection-start="644" selection-end="644" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="475">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DrawTool.java" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="41" column="39" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1425">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="6" column="56" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-first>
-      <split-second>
-        <leaf>
-          <file leaf-file-name="edit.xml" pinned="false" current="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
-              <provider editor-type-id="android-designer">
-                <state />
-              </provider>
-              <provider selected="true" editor-type-id="text-editor">
-                <state line="12" column="30" selection-start="593" selection-end="593" vertical-scroll-proportion="0.5033113" vertical-offset="0" max-vertical-offset="475">
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-        </leaf>
-      </split-second>
-    </splitter>
+    <leaf>
+      <file leaf-file-name="CardElement.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="106" column="5" selection-start="3501" selection-end="3501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2508">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EditActivity.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/activity/EditActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="52" column="0" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2926">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dbdata.txt" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/dbdata.txt">
+          <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="39" selection-start="729" selection-end="729" vertical-scroll-proportion="0.13181019" vertical-offset="172" max-vertical-offset="741">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="edit.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
+          <provider selected="true" editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider editor-type-id="text-editor">
+            <state line="22" column="53" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+              <folding>
+                <element signature="e#622#648#0" expanded="true" />
+                <element signature="e#686#709#0" expanded="true" />
+                <element signature="e#1004#1027#0" expanded="true" />
+                <element signature="e#1310#1336#0" expanded="true" />
+                <element signature="e#1374#1397#0" expanded="true" />
+                <element signature="e#1567#1593#0" expanded="true" />
+                <element signature="e#1628#1655#0" expanded="true" />
+                <element signature="e#1756#1780#0" expanded="true" />
+                <element signature="e#1819#1845#0" expanded="true" />
+                <element signature="e#1956#1982#0" expanded="true" />
+                <element signature="e#2017#2044#0" expanded="true" />
+                <element signature="e#2145#2169#0" expanded="true" />
+                <element signature="e#2335#2361#0" expanded="true" />
+                <element signature="e#2396#2423#0" expanded="true" />
+                <element signature="e#2524#2548#0" expanded="true" />
+                <element signature="e#2588#2614#0" expanded="true" />
+                <element signature="e#2769#2795#0" expanded="true" />
+                <element signature="e#2830#2857#0" expanded="true" />
+                <element signature="e#2958#2983#0" expanded="true" />
+                <element signature="e#3022#3048#0" expanded="true" />
+                <element signature="e#3159#3185#0" expanded="true" />
+                <element signature="e#3220#3247#0" expanded="true" />
+                <element signature="e#3348#3373#0" expanded="true" />
+                <element signature="e#3539#3565#0" expanded="true" />
+                <element signature="e#3600#3627#0" expanded="true" />
+                <element signature="e#3728#3753#0" expanded="true" />
+                <element signature="e#3793#3819#0" expanded="true" />
+                <element signature="e#3975#4001#0" expanded="true" />
+                <element signature="e#4036#4063#0" expanded="true" />
+                <element signature="e#4164#4189#0" expanded="true" />
+                <element signature="e#4228#4254#0" expanded="true" />
+                <element signature="e#4365#4391#0" expanded="true" />
+                <element signature="e#4426#4453#0" expanded="true" />
+                <element signature="e#4554#4579#0" expanded="true" />
+                <element signature="e#4745#4771#0" expanded="true" />
+                <element signature="e#4806#4833#0" expanded="true" />
+                <element signature="e#4934#4959#0" expanded="true" />
+                <element signature="e#4999#5025#0" expanded="true" />
+                <element signature="e#5297#5323#0" expanded="true" />
+                <element signature="e#5362#5388#0" expanded="true" />
+                <element signature="e#5679#5705#0" expanded="true" />
+                <element signature="e#5745#5771#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dimens.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="48" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -224,15 +269,29 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/res/layout/main.xml" />
-        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/activity/EditActivity.java" />
         <option value="$PROJECT_DIR$/AndroidManifest.xml" />
-        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
-        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java" />
         <option value="$PROJECT_DIR$/res/layout/cardelement.xml" />
+        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/po/Card.java" />
+        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/ListenerUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java" />
+        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/useCardServer.java" />
+        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/GlobalUtil.java" />
+        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/DataBaseHelper.java" />
+        <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/activity/EditActivity.java" />
         <option value="$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_parent_golib.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_parent_changewave.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_parent_end.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_parent_setting.xml" />
+        <option value="$PROJECT_DIR$/res/drawable/btn_parent_crate.xml" />
         <option value="$PROJECT_DIR$/res/layout/edit.xml" />
+        <option value="$PROJECT_DIR$/res/values/dimens.xml" />
+        <option value="$PROJECT_DIR$/assets/dbdata.txt" />
       </list>
     </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState />
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
@@ -287,6 +346,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -343,32 +403,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="Xiaoyudi_mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tool" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xiaoyudi-mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xiaoyudi-mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xiaoyudi_mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="activity" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -432,31 +466,12 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="res" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="drawable-hdpi" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xiaoyudi-mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Xiaoyudi-mvp" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="gen" />
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -473,7 +488,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Xiaoyudi_mvp_andorid" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -482,12 +497,18 @@
     <property name="FullScreen" value="false" />
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
     <property name="LayoutCode.rearrangeEntriesXML" value="false" />
-    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="251" />
+    <property name="UI_DESIGNER_EDITOR_MODE.UIDesignerToolWindowManager2.WIDTH" value="490" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.Xiaoyudi_mvp.po" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="P:\project\Xiaoyudi-mvp\res\drawable" />
       <recent name="P:\project\Xiaoyudi-mvp\res\drawable-hdpi" />
-      <recent name="E:\github\Xiaoyudi-mvp\res\drawable-hdpi" />
+      <recent name="P:\project\Xiaoyudi-mvp\src\com\Xiaoyudi_mvp\util" />
+      <recent name="P:\project\Xiaoyudi-mvp\res\values" />
+      <recent name="P:\project\Xiaoyudi-mvp" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -760,12 +781,13 @@
       <workItem from="1387593785036" duration="15279000" />
       <workItem from="1387677950334" duration="17962000" />
       <workItem from="1387762253581" duration="1192000" />
-      <workItem from="1387763509187" duration="8566000" />
+      <workItem from="1387763509187" duration="17369000" />
+      <workItem from="1387786671777" duration="5402000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42999000" />
+    <option name="totallyTimeSpent" value="57204000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1026" extended-state="6" />
@@ -773,28 +795,28 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23816794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885087" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35005575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0981048" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4136009" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.43589744" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0981048" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4057971" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.30657747" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17399268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32329988" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16117217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18506132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -806,30 +828,30 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23816794" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0981048" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.0981048" sideWeight="0.5" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17399268" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2039072" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5217391" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18506132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32885087" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32844934" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41248608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35005575" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4136009" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.0981048" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4057971" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30657747" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32967034" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -856,44 +878,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="5" selection-start="2615" selection-end="2615" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="744" selection-end="744" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
-      <provider editor-type-id="android-designer">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="80" selection-start="114" selection-end="200" vertical-scroll-proportion="0.0" vertical-offset="38" max-vertical-offset="475">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="26" selection-start="2339" selection-end="2339" vertical-scroll-proportion="0.0" vertical-offset="1254" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state line="62" column="99" selection-start="1889" selection-end="1889" vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="2508">
           <folding />
         </state>
@@ -905,15 +889,56 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state line="14" column="50" selection-start="664" selection-end="664" vertical-scroll-proportion="0.0" vertical-offset="266" max-vertical-offset="475">
-          <folding />
+          <folding>
+            <element signature="e#622#648#0" expanded="true" />
+            <element signature="e#686#709#0" expanded="true" />
+            <element signature="e#1004#1027#0" expanded="true" />
+            <element signature="e#1310#1336#0" expanded="true" />
+            <element signature="e#1374#1397#0" expanded="true" />
+            <element signature="e#1567#1593#0" expanded="true" />
+            <element signature="e#1628#1655#0" expanded="true" />
+            <element signature="e#1756#1780#0" expanded="true" />
+            <element signature="e#1819#1845#0" expanded="true" />
+            <element signature="e#1956#1982#0" expanded="true" />
+            <element signature="e#2017#2044#0" expanded="true" />
+            <element signature="e#2145#2169#0" expanded="true" />
+            <element signature="e#2335#2361#0" expanded="true" />
+            <element signature="e#2396#2423#0" expanded="true" />
+            <element signature="e#2524#2548#0" expanded="true" />
+            <element signature="e#2588#2614#0" expanded="true" />
+            <element signature="e#2769#2795#0" expanded="true" />
+            <element signature="e#2830#2857#0" expanded="true" />
+            <element signature="e#2958#2983#0" expanded="true" />
+            <element signature="e#3022#3048#0" expanded="true" />
+            <element signature="e#3159#3185#0" expanded="true" />
+            <element signature="e#3220#3247#0" expanded="true" />
+            <element signature="e#3348#3373#0" expanded="true" />
+            <element signature="e#3539#3565#0" expanded="true" />
+            <element signature="e#3600#3627#0" expanded="true" />
+            <element signature="e#3728#3753#0" expanded="true" />
+            <element signature="e#3793#3819#0" expanded="true" />
+            <element signature="e#3975#4001#0" expanded="true" />
+            <element signature="e#4036#4063#0" expanded="true" />
+            <element signature="e#4164#4189#0" expanded="true" />
+            <element signature="e#4228#4254#0" expanded="true" />
+            <element signature="e#4365#4391#0" expanded="true" />
+            <element signature="e#4426#4453#0" expanded="true" />
+            <element signature="e#4554#4579#0" expanded="true" />
+            <element signature="e#4745#4771#0" expanded="true" />
+            <element signature="e#4806#4833#0" expanded="true" />
+            <element signature="e#4934#4959#0" expanded="true" />
+            <element signature="e#4999#5025#0" expanded="true" />
+            <element signature="e#5297#5323#0" expanded="true" />
+            <element signature="e#5362#5388#0" expanded="true" />
+            <element signature="e#5679#5705#0" expanded="true" />
+            <element signature="e#5745#5771#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="57" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="703" max-vertical-offset="1425">
-          <folding />
-        </state>
+        <state line="37" column="57" selection-start="1231" selection-end="1231" vertical-scroll-proportion="0.0" vertical-offset="703" max-vertical-offset="1425" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
@@ -950,15 +975,56 @@
       </provider>
       <provider editor-type-id="text-editor">
         <state line="10" column="47" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0" vertical-offset="190" max-vertical-offset="399">
-          <folding />
+          <folding>
+            <element signature="e#622#648#0" expanded="true" />
+            <element signature="e#686#709#0" expanded="true" />
+            <element signature="e#1004#1027#0" expanded="true" />
+            <element signature="e#1310#1336#0" expanded="true" />
+            <element signature="e#1374#1397#0" expanded="true" />
+            <element signature="e#1567#1593#0" expanded="true" />
+            <element signature="e#1628#1655#0" expanded="true" />
+            <element signature="e#1756#1780#0" expanded="true" />
+            <element signature="e#1819#1845#0" expanded="true" />
+            <element signature="e#1956#1982#0" expanded="true" />
+            <element signature="e#2017#2044#0" expanded="true" />
+            <element signature="e#2145#2169#0" expanded="true" />
+            <element signature="e#2335#2361#0" expanded="true" />
+            <element signature="e#2396#2423#0" expanded="true" />
+            <element signature="e#2524#2548#0" expanded="true" />
+            <element signature="e#2588#2614#0" expanded="true" />
+            <element signature="e#2769#2795#0" expanded="true" />
+            <element signature="e#2830#2857#0" expanded="true" />
+            <element signature="e#2958#2983#0" expanded="true" />
+            <element signature="e#3022#3048#0" expanded="true" />
+            <element signature="e#3159#3185#0" expanded="true" />
+            <element signature="e#3220#3247#0" expanded="true" />
+            <element signature="e#3348#3373#0" expanded="true" />
+            <element signature="e#3539#3565#0" expanded="true" />
+            <element signature="e#3600#3627#0" expanded="true" />
+            <element signature="e#3728#3753#0" expanded="true" />
+            <element signature="e#3793#3819#0" expanded="true" />
+            <element signature="e#3975#4001#0" expanded="true" />
+            <element signature="e#4036#4063#0" expanded="true" />
+            <element signature="e#4164#4189#0" expanded="true" />
+            <element signature="e#4228#4254#0" expanded="true" />
+            <element signature="e#4365#4391#0" expanded="true" />
+            <element signature="e#4426#4453#0" expanded="true" />
+            <element signature="e#4554#4579#0" expanded="true" />
+            <element signature="e#4745#4771#0" expanded="true" />
+            <element signature="e#4806#4833#0" expanded="true" />
+            <element signature="e#4934#4959#0" expanded="true" />
+            <element signature="e#4999#5025#0" expanded="true" />
+            <element signature="e#5297#5323#0" expanded="true" />
+            <element signature="e#5362#5388#0" expanded="true" />
+            <element signature="e#5679#5705#0" expanded="true" />
+            <element signature="e#5745#5771#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="25" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="836">
-          <folding />
-        </state>
+        <state line="33" column="25" selection-start="1084" selection-end="1084" vertical-scroll-proportion="0.0" vertical-offset="277" max-vertical-offset="836" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
@@ -973,32 +1039,19 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/activity/EditActivity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="43" selection-start="314" selection-end="314" vertical-scroll-proportion="0.40772533" vertical-offset="0" max-vertical-offset="466">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Java/Android/android-sdk/sources/android-17/android/view/LayoutInflater.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="565" column="0" selection-start="23154" selection-end="23154" vertical-scroll-proportion="0.0" vertical-offset="9814" max-vertical-offset="17024">
-          <folding />
-        </state>
+        <state line="565" column="0" selection-start="23154" selection-end="23154" vertical-scroll-proportion="0.0" vertical-offset="9814" max-vertical-offset="17024" />
       </provider>
     </entry>
     <entry file="file://C:/Java/Android/android-sdk/sources/android-17/android/graphics/BitmapFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="406" column="49" selection-start="17162" selection-end="17171" vertical-scroll-proportion="0.0" vertical-offset="7063" max-vertical-offset="12236">
-          <folding />
-        </state>
+        <state line="406" column="49" selection-start="17162" selection-end="17171" vertical-scroll-proportion="0.0" vertical-offset="7063" max-vertical-offset="12236" />
       </provider>
     </entry>
     <entry file="file://C:/Java/Android/android-sdk/sources/android-17/android/view/View.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13732" column="38" selection-start="536445" selection-end="536445" vertical-scroll-proportion="0.8854701" vertical-offset="256932" max-vertical-offset="345382">
-          <folding />
-        </state>
+        <state line="13732" column="38" selection-start="536445" selection-end="536445" vertical-scroll-proportion="0.8854701" vertical-offset="256932" max-vertical-offset="345382" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/res/layout-land/edit.xml">
@@ -1007,34 +1060,6 @@
       </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="537">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="56" selection-start="311" selection-end="311" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="285">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="51" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="39" selection-start="1402" selection-end="1402" vertical-scroll-proportion="0.0" vertical-offset="437" max-vertical-offset="1425">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Java/Android/android-sdk/sources/android-17/android/graphics/Canvas.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1733" column="78" selection-start="73542" selection-end="73542" vertical-scroll-proportion="0.39164087" vertical-offset="32123" max-vertical-offset="33098">
           <folding />
         </state>
       </provider>
@@ -1049,19 +1074,252 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
-      <provider editor-type-id="android-designer">
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="51" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/arrays.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="33" selection-start="304" selection-end="304" vertical-scroll-proportion="0.32821497" vertical-offset="0" max-vertical-offset="521">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/tool/DrawTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="37" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0" vertical-offset="444" max-vertical-offset="1406" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/po/Card.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="13" selection-start="43" selection-end="43" vertical-scroll-proportion="0.07509881" vertical-offset="0" max-vertical-offset="1368" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/DBUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="25" selection-start="343" selection-end="343" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="608" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_24.jpg">
+      <provider selected="true" editor-type-id="images">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_23.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_22.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_12.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_6.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_5.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_4.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_3.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/p1_1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/DataBaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="50" selection-start="644" selection-end="644" vertical-scroll-proportion="-9.5" vertical-offset="0" max-vertical-offset="475">
+        <state line="23" column="56" selection-start="704" selection-end="705" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="9177" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/GlobalUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="66" selection-start="693" selection-end="693" vertical-scroll-proportion="0.27099842" vertical-offset="0" max-vertical-offset="2166" />
+      </provider>
+    </entry>
+    <entry file="file://C:/Java/Android/android-sdk/sources/android-17/android/graphics/Canvas.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1065" column="0" selection-start="40365" selection-end="40365" vertical-scroll-proportion="0.33333334" vertical-offset="19475" max-vertical-offset="33098" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/util/Constants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="844" selection-end="844" vertical-scroll-proportion="0.57575756" vertical-offset="0" max-vertical-offset="627" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/common_background.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/parent_main_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/sucaikudown.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_parent_golib.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="78" selection-start="270" selection-end="270" vertical-scroll-proportion="0.1277311" vertical-offset="0" max-vertical-offset="595">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/view/CardElement.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="31" selection-start="2759" selection-end="2759" vertical-scroll-proportion="0.5553236" vertical-offset="1197" max-vertical-offset="2432">
+        <state line="106" column="5" selection-start="3501" selection-end="3501" vertical-scroll-proportion="0.0" vertical-offset="1638" max-vertical-offset="2508">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_cardelement_bianji.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="90" selection-start="113" selection-end="295" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="209">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tittle.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/tittlebtndown.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_parent_setting.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="78" selection-start="270" selection-end="270" vertical-scroll-proportion="0.1277311" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_parent_end.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="274" selection-end="274" vertical-scroll-proportion="0.15966387" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_parent_tittle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="11" selection-start="283" selection-end="283" vertical-scroll-proportion="0.15966387" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/btn_parent_create.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="74" selection-start="262" selection-end="262" vertical-scroll-proportion="0.1277311" vertical-offset="0" max-vertical-offset="595">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/dimens.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="48" selection-start="749" selection-end="749" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="456">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/edit.xml">
+      <provider selected="true" editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="22" column="53" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2584">
+          <folding>
+            <element signature="e#622#648#0" expanded="true" />
+            <element signature="e#686#709#0" expanded="true" />
+            <element signature="e#1004#1027#0" expanded="true" />
+            <element signature="e#1310#1336#0" expanded="true" />
+            <element signature="e#1374#1397#0" expanded="true" />
+            <element signature="e#1567#1593#0" expanded="true" />
+            <element signature="e#1628#1655#0" expanded="true" />
+            <element signature="e#1756#1780#0" expanded="true" />
+            <element signature="e#1819#1845#0" expanded="true" />
+            <element signature="e#1956#1982#0" expanded="true" />
+            <element signature="e#2017#2044#0" expanded="true" />
+            <element signature="e#2145#2169#0" expanded="true" />
+            <element signature="e#2335#2361#0" expanded="true" />
+            <element signature="e#2396#2423#0" expanded="true" />
+            <element signature="e#2524#2548#0" expanded="true" />
+            <element signature="e#2588#2614#0" expanded="true" />
+            <element signature="e#2769#2795#0" expanded="true" />
+            <element signature="e#2830#2857#0" expanded="true" />
+            <element signature="e#2958#2983#0" expanded="true" />
+            <element signature="e#3022#3048#0" expanded="true" />
+            <element signature="e#3159#3185#0" expanded="true" />
+            <element signature="e#3220#3247#0" expanded="true" />
+            <element signature="e#3348#3373#0" expanded="true" />
+            <element signature="e#3539#3565#0" expanded="true" />
+            <element signature="e#3600#3627#0" expanded="true" />
+            <element signature="e#3728#3753#0" expanded="true" />
+            <element signature="e#3793#3819#0" expanded="true" />
+            <element signature="e#3975#4001#0" expanded="true" />
+            <element signature="e#4036#4063#0" expanded="true" />
+            <element signature="e#4164#4189#0" expanded="true" />
+            <element signature="e#4228#4254#0" expanded="true" />
+            <element signature="e#4365#4391#0" expanded="true" />
+            <element signature="e#4426#4453#0" expanded="true" />
+            <element signature="e#4554#4579#0" expanded="true" />
+            <element signature="e#4745#4771#0" expanded="true" />
+            <element signature="e#4806#4833#0" expanded="true" />
+            <element signature="e#4934#4959#0" expanded="true" />
+            <element signature="e#4999#5025#0" expanded="true" />
+            <element signature="e#5297#5323#0" expanded="true" />
+            <element signature="e#5362#5388#0" expanded="true" />
+            <element signature="e#5679#5705#0" expanded="true" />
+            <element signature="e#5745#5771#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/Xiaoyudi_mvp/activity/EditActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="0" selection-start="1418" selection-end="1418" vertical-scroll-proportion="0.0" vertical-offset="285" max-vertical-offset="2926">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/dbdata.txt">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="39" selection-start="729" selection-end="729" vertical-scroll-proportion="0.13181019" vertical-offset="172" max-vertical-offset="741">
           <folding />
         </state>
       </provider>

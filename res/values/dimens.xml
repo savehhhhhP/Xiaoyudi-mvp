@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <declare-styleable name="CardElementView">
-        <attr name="textName" format="string"/>
-        <!--<attr name="imgResouse" format="integer"/>-->
-        <attr name="textSize" format="dimension"/>
-        <!--<attr name="textStyle" format="integer"/>-->
-        <attr name="textColor" format="integer"/>
-    </declare-styleable>
+<declare-styleable name="CardElementView">
+    <attr name="textName" format="string"/>
+    <!--<attr name="imgResouse" format="integer"/>-->
+    <attr name="textSize" format="dimension"/>
+    <!--<attr name="textStyle" format="integer"/>-->
+    <attr name="textColor" format="integer"/>
+</declare-styleable>
+    <dimen name="layout_card_width">216px</dimen>
+    <dimen name="layout_card_height">230px</dimen>
+    <dimen name="layout_card_space">36px</dimen>
+    <dimen name="layout_card_top">200px</dimen>
+    <dimen name="layout_card_top2">430px</dimen>
+    <dimen name="layout_card_top3">660px</dimen>
+    <dimen name="layout_btn_top">36px</dimen>
+    <dimen name="layout_btn_bottom">10px</dimen>
+    <dimen name="layout_btn_margin">10px</dimen>
 </resources>
