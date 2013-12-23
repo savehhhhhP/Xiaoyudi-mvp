@@ -3,10 +3,7 @@ package com.Xiaoyudi_mvp.view;
 import android.content.Context;
 import android.content.res.Resources;
 import android.content.res.TypedArray;
-import android.graphics.Bitmap;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
+import android.graphics.*;
 import android.graphics.drawable.BitmapDrawable;
 import android.util.AttributeSet;
 import android.util.Log;
@@ -17,6 +14,7 @@ import com.Xiaoyudi_mvp.tool.DrawTool;
 
 /**
  * Created by save on 13-12-21.
+ * lxl
  */
 public class CardElement extends View{
     static final String TAG = "CardElement";
@@ -65,7 +63,7 @@ public class CardElement extends View{
         if (array != null) {
             textName = array.getString(R.styleable.CardElementView_textName);
             textSize = array.getDimension(R.styleable.CardElementView_textSize, 36);
-            textColor = array.getColor(R.styleable.CardElementView_textColor, Color.RED);
+            textColor = array.getColor(R.styleable.CardElementView_textColor, Color.BLACK);
 
             array.recycle(); //一定要调用，否则这次的设定会对下次的使用造成影响
         }
@@ -79,6 +77,7 @@ public class CardElement extends View{
         // 在画板上绘制图片
         mPaint.setTextSize(textSize);
         mPaint.setColor(textColor);
+        mPaint.setTextAlign(Paint.Align.CENTER);
         drawBitmap(canvas);
     }
 
@@ -87,49 +86,43 @@ public class CardElement extends View{
         float hight = scope * 90.0f;
         imageOffset[0] = width;
         imageOffset[1] = hight;
-        image = DrawTool.getInsertCard(bg, image, width);
+        image = DrawTool.getInsertCard(bg, image, width);   //处理内容图片
 
-        textOfffset[0] = scope * 300.0f;
-        textOfffset[1] = scope * 870.0f;
-        canvas.drawText(textName,textOfffset[0],textOfffset[1],mPaint);
+        textOfffset[0] = scope * (840);
+        Log.i(TAG,"textOfffset[0]"+textOfffset[0]);
+        textOfffset[1] = scope * 1300.0f;
 
         canvas.drawBitmap(whight, 0, 0, mPaint);
         canvas.drawBitmap(image, imageOffset[0], imageOffset[1], mPaint);
         canvas.drawBitmap(bg, 0, 0, mPaint);
         canvas.drawBitmap(wood, 0, 0, mPaint);
         canvas.drawBitmap(btn, btnOffset[0], btnOffset[1], mPaint);
+        //canvas.drawText(textName,50,50,mPaint);
+        canvas.drawText(textName,textOfffset[0],textOfffset[1],mPaint);
     }
 
     private void loadResource() {
-        // 获得资源
         Resources rec = getResources();
-        BitmapDrawable common_card_bg = null;
-        BitmapDrawable common_card_white = null;
-        BitmapDrawable common_card_wood = null;
-        BitmapDrawable img = null;
-        BitmapDrawable parent_main_editbtn = null;
+        try {
+            image= BitmapFactory.decodeResource(rec, R.drawable.apple);
+            whight = BitmapFactory.decodeResource(rec, R.drawable.common_card_white);
+            bg = BitmapFactory.decodeResource(rec, R.drawable.common_card_bg);
+            wood = BitmapFactory.decodeResource(rec, R.drawable.common_card_wood);
+            btn = BitmapFactory.decodeResource(rec, R.drawable.parent_main_editbtn);
 
-        if (rec != null) {
-            // BitmapDrawable
-            parent_main_editbtn = (BitmapDrawable) rec.getDrawable(R.drawable.parent_main_editbtn);
-            common_card_bg = (BitmapDrawable) rec.getDrawable(R.drawable.common_card_bg);
-            common_card_white = (BitmapDrawable) rec.getDrawable(R.drawable.common_card_white);
-            common_card_wood = (BitmapDrawable) rec.getDrawable(R.drawable.common_card_wood);
-            img = (BitmapDrawable) rec.getDrawable(R.drawable.donteat);
-
+        } catch (Exception e) {
+            Log.e(TAG,e.toString());
         }
-        // 得到Bitmap
-        res = common_card_bg.getBitmap();
-        whight = DrawTool.getRealZBitmap(common_card_white.getBitmap(),this.getWidth(),this.getHeight());
-        bg = DrawTool.getRealZBitmap(common_card_bg.getBitmap(),this.getWidth(),this.getHeight());
-        image = img.getBitmap();
-        wood = DrawTool.getRealZBitmap(common_card_wood.getBitmap(),this.getWidth(),this.getHeight());
-        //取得缩放比例
-        scope = DrawTool.getScope(common_card_bg.getBitmap(),this.getWidth(),this.getHeight());
+        //根据木框大小 取得缩放比例
+        scope = DrawTool.getScope(bg,this.getWidth(),this.getHeight());
+        whight = DrawTool.getRealZBitmap(whight,this.getWidth(),this.getHeight());
+        bg = DrawTool.getRealZBitmap(bg,this.getWidth(),this.getHeight());
+        //image = img.getBitmap();
+        wood = DrawTool.getRealZBitmap(wood,this.getWidth(),this.getHeight());
         //根据缩放后的bg 算出当前按钮的大小
-        btn = getBtnSize(bg,parent_main_editbtn.getBitmap());
+        btn = getBtnSize(bg,btn);
     }
-
+// 266 867
     private Bitmap getBtnSize(Bitmap bg, Bitmap bitmap) {
         float width = bg.getWidth() / 6.0f;
         btnOffset[0]= bg.getWidth() - width * 1.2f;   //left

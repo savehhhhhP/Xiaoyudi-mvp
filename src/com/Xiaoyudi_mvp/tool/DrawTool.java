@@ -53,17 +53,19 @@ public class DrawTool {
     }
 
     /**
-     * 根据card在bg中向右移动的距离 y 生成缩放后的bitmap
+     * 根据card在bg中向右移动的距离 width 生成缩放后的bitmap
      */
-    public static Bitmap getInsertCard(Bitmap bgMap, Bitmap card,float y){
-        Bitmap modifyCard;
-        float scope;
-        //按卡片的宽度缩放
-        float newWidth = bgMap.getWidth() - 2 * y; //新的宽度
-        scope = newWidth / card.getWidth();
-        Matrix matrix = new Matrix();
-        matrix.postScale(scope,scope); //长和宽放大缩小的比例
-        modifyCard = Bitmap.createBitmap(card, 0, 0, card.getWidth(), card.getHeight(), matrix, true);
+    public static Bitmap getInsertCard(Bitmap bgMap, Bitmap card,float width){
+        Bitmap modifyCard=null;
+        if(card !=null){
+            //按卡片的宽度缩放
+            float scope = 0;
+            float newWidth = (float) bgMap.getWidth() - 2.2f * width; //新的宽度
+            scope = newWidth / card.getWidth();
+            Matrix matrix = new Matrix();
+            matrix.postScale(scope, scope); //长和宽放大缩小的比例
+            modifyCard = Bitmap.createBitmap(card, 0, 0, card.getWidth(), card.getHeight(), matrix, true);
+        }
         return modifyCard;
     }
 }

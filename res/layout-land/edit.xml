@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:my="http://schemas.android.com/apk/res/com.Xiaoyudi_mvp.activity"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@drawable/common_background">
+
+    <com.Xiaoyudi_mvp.view.CardElement
+            android:layout_width="420dp"
+            android:layout_height="350dp"
+            my:textName="我要吃饭"
+
+            android:layout_alignParentLeft="false"
+            android:layout_centerInParent="true"/>
+
+
+</RelativeLayout>
+
